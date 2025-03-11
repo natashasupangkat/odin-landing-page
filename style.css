@@ -1,8 +1,9 @@
 :root {
     --dark-bg: #1F2937;
-    --light-text: #F9FAF8;
+    --light: #F9FAF8;
     --body-text: #acafb6;
     --blue: #3882f6;
+    --grey: #e5e7eb;
 }
 
 * {
@@ -19,7 +20,7 @@ body {
 
 h1 {
     font-size: 48px;
-    color: var(--light-text);
+    color: var(--light);
     font-weight: 900;
 }
 
@@ -31,7 +32,7 @@ h2 {
 
 button {
     background: var(--blue);
-    color: var(--light-text);
+    color: var(--light);
     text-align: center;
     border: 0px;
     padding: 10px 35px;
@@ -63,7 +64,7 @@ nav {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: var(--light-text);
+    color: var(--light);
 }
 
 .navlinks {
@@ -84,6 +85,7 @@ section {
 .features {
     text-align: center;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .boxes {
@@ -101,6 +103,24 @@ section {
 .boxes div img {
     border: 4px solid var(--blue);
     border-radius: 15px;
+}
+
+.quote {
+    background: var(--grey);
+    color: var(--dark-bg);
+    padding: 9% 25%;
+}
+
+.quote div {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 110%;
+}
+
+.quote span {
+    align-self: flex-end;
+    font-weight: 700;
 }
 
 .gap {
