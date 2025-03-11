@@ -149,3 +149,9 @@ section {
     align-items: flex-start;
     gap: 15px;
 }
+
+footer {
+    background: var(--dark-bg);
+    text-align: center;
+    padding: 3%;
+}
