@@ -1,7 +1,7 @@
 :root {
     --dark-bg: #1F2937;
     --light: #F9FAF8;
-    --body-text: #acafb6;
+    --body-text: #d7d9de;
     --blue: #3882f6;
     --grey: #e5e7eb;
 }
@@ -28,6 +28,11 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     color: var(--dark-bg);
+}
+
+h4 {
+    font-size: 24px;
+    color: var(--light);
 }
 
 button {
@@ -121,6 +126,23 @@ section {
 .quote span {
     align-self: flex-end;
     font-weight: 700;
+}
+
+.cta {
+    background: var(--blue);
+    padding: 5% 10%;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: var(--body-text);
+    align-items: flex-start;
+}
+
+.cta div {
+    gap: 5px;
+}
+
+.cta button {
+    border: 2px solid var(--light);
 }
 
 .gap {
